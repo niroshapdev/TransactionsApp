@@ -113,6 +113,36 @@
                   endingLineNumber = "122"
                   offsetFromSymbolStart = "61">
                </Location>
+               <Location
+                  uuid = "A59BFAF4-8F68-41D5-BE2E-EEEDF5CC9FB5 - 46adb01d8760c53f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TransactionsApp.ViewAccounts.viewTransactions(for: TransactionsApp.Account) -&gt; some"
+                  moduleName = "TransactionsApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/niroshapabolu/Documents/TCSProjects/TransactionsApp/TransactionsApp/View/Account/ViewAccounts.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "85"
+                  endingLineNumber = "85"
+                  offsetFromSymbolStart = "151">
+               </Location>
+               <Location
+                  uuid = "A59BFAF4-8F68-41D5-BE2E-EEEDF5CC9FB5 - accc135a385d5380"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.frame(minWidth: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, idealWidth: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, maxWidth: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, minHeight: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, idealHeight: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, maxHeight: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0, SwiftUI.Text)&gt; in TransactionsApp.ViewAccounts.viewTransactions(for: TransactionsApp.Account) -&gt; some"
+                  moduleName = "TransactionsApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/niroshapabolu/Documents/TCSProjects/TransactionsApp/TransactionsApp/View/Account/ViewAccounts.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "86"
+                  endingLineNumber = "86"
+                  offsetFromSymbolStart = "80">
+               </Location>
             </Locations>
          </BreakpointContent>
       </BreakpointProxy>

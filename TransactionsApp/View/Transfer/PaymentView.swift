@@ -14,7 +14,7 @@ struct PaymentView: View {
     @Binding var beneficiaryName: String
     
     var body: some View {
-        Text("dsf")
+        Text("Test")
     }
 }
 

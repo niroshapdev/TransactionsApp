@@ -44,7 +44,7 @@ struct PrimaryButton: View {
                 .padding()
                 .background(
                     RoundedRectangle(cornerRadius: 10)
-                        .fill(Color.green)
+                        .fill(ColorConstants.navBarColor)
                 )
                 .padding(.horizontal,50)
         }

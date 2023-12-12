@@ -11,7 +11,7 @@ import SwiftUI
 struct TransactionsAppApp: App {
     var body: some Scene {
         WindowGroup {
-            BalancesView()
+            PinView()
         }
     }
 }

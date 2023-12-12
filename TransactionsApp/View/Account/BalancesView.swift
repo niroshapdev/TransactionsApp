@@ -14,18 +14,7 @@ struct BalancesView: View {
     
     var body: some View {
         contentView
-//            .customNavigationView(title: StringConstants.BalancesConstants.balancesTab)
-//            .toolbar {
-//                ToolbarItem(placement: .navigationBarTrailing) {
-//                    NavigationLink {
-//                        AddAccountView()
-//                    } label: {
-//                        Image(systemName: "plus")
-//                            .tint(.white)
-//                            .imageScale(.small)
-//                    }
-//                }
-//            }
+            .navigationBarHidden(true)
     }
     
     private var contentView: some View {
