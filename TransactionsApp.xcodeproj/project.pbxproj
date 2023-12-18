@@ -8,11 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		542FC0969FDE7323F05665A9 /* Pods_TransactionsApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D44CBDCB85FE014D7912114B /* Pods_TransactionsApp.framework */; };
+		65D39CD22B2F760400D975B8 /* MoneyTransferIntents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 65D39CD12B2F760400D975B8 /* MoneyTransferIntents.intentdefinition */; };
+		65D39CFF2B2F7D3B00D975B8 /* Intents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65D39CD92B2F7D0500D975B8 /* Intents.framework */; };
+		65D39D022B2F7D3C00D975B8 /* IntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D39D012B2F7D3C00D975B8 /* IntentHandler.swift */; };
+		65D39D092B2F7D3C00D975B8 /* IntentsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65D39CE42B2F7D0600D975B8 /* IntentsUI.framework */; };
+		65D39D0C2B2F7D3D00D975B8 /* IntentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D39D0B2B2F7D3D00D975B8 /* IntentViewController.swift */; };
+		65D39D0F2B2F7D3D00D975B8 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65D39D0D2B2F7D3D00D975B8 /* MainInterface.storyboard */; };
+		65D39D132B2F7D3D00D975B8 /* TransactionsAppIntentUI.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 65D39D082B2F7D3C00D975B8 /* TransactionsAppIntentUI.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		65D39D162B2F7D3D00D975B8 /* TransactionsAppIntent.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 65D39CFE2B2F7D3B00D975B8 /* TransactionsAppIntent.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		65D39D1D2B2F888E00D975B8 /* MoneyTransferIntents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 65D39CD12B2F760400D975B8 /* MoneyTransferIntents.intentdefinition */; };
+		65D39D1E2B2F888F00D975B8 /* MoneyTransferIntents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 65D39CD12B2F760400D975B8 /* MoneyTransferIntents.intentdefinition */; };
+		65D39D272B2F8B4B00D975B8 /* DonateButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D39D242B2F8B4B00D975B8 /* DonateButton.swift */; };
+		65D39D282B2F8B4B00D975B8 /* DonateButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D39D242B2F8B4B00D975B8 /* DonateButton.swift */; };
+		65D39D292B2F8B4B00D975B8 /* DonateButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D39D242B2F8B4B00D975B8 /* DonateButton.swift */; };
+		65D39D2A2B2F8B4B00D975B8 /* DonateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D39D252B2F8B4B00D975B8 /* DonateViewController.swift */; };
+		65D39D2B2B2F8B4B00D975B8 /* DonateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D39D252B2F8B4B00D975B8 /* DonateViewController.swift */; };
+		65D39D2C2B2F8B4B00D975B8 /* DonateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D39D252B2F8B4B00D975B8 /* DonateViewController.swift */; };
+		65D39D2D2B2F8B4B00D975B8 /* IntentManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D39D262B2F8B4B00D975B8 /* IntentManager.swift */; };
+		65D39D2E2B2F8B4B00D975B8 /* IntentManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D39D262B2F8B4B00D975B8 /* IntentManager.swift */; };
+		65D39D2F2B2F8B4B00D975B8 /* IntentManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D39D262B2F8B4B00D975B8 /* IntentManager.swift */; };
 		C402B8E92B05C2E400E704A1 /* DateHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C402B8E82B05C2E400E704A1 /* DateHeaderView.swift */; };
 		C402B8F12B0614A600E704A1 /* TransferView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C402B8F02B0614A600E704A1 /* TransferView.swift */; };
 		C410D6F12B1CCD03003357D8 /* PaymentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C410D6F02B1CCD03003357D8 /* PaymentView.swift */; };
 		C410D6F32B1CEF25003357D8 /* SuccessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C410D6F22B1CEF25003357D8 /* SuccessView.swift */; };
-		C42A4CBB2AAC8B2600780DBE /* TransactionsAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42A4CBA2AAC8B2600780DBE /* TransactionsAppApp.swift */; };
+		C42A4CBB2AAC8B2600780DBE /* TransactionsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42A4CBA2AAC8B2600780DBE /* TransactionsApp.swift */; };
 		C42A4CBD2AAC8B2600780DBE /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42A4CBC2AAC8B2600780DBE /* LoginView.swift */; };
 		C42A4CBF2AAC8B2900780DBE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C42A4CBE2AAC8B2900780DBE /* Assets.xcassets */; };
 		C42A4CC22AAC8B2900780DBE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C42A4CC12AAC8B2900780DBE /* Preview Assets.xcassets */; };
@@ -32,7 +51,54 @@
 		C4F1AB272B04D85E00328AE6 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F1AB262B04D85E00328AE6 /* Utils.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		65D39D112B2F7D3D00D975B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C42A4CAF2AAC8B2600780DBE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 65D39D072B2F7D3C00D975B8;
+			remoteInfo = TransactionsAppIntentUI;
+		};
+		65D39D142B2F7D3D00D975B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C42A4CAF2AAC8B2600780DBE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 65D39CFD2B2F7D3B00D975B8;
+			remoteInfo = TransactionsAppIntent;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		65D39CF92B2F7D0600D975B8 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				65D39D132B2F7D3D00D975B8 /* TransactionsAppIntentUI.appex in Embed Foundation Extensions */,
+				65D39D162B2F7D3D00D975B8 /* TransactionsAppIntent.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		65047FBB2B3099C900C75025 /* TransactionsApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TransactionsApp.entitlements; sourceTree = "<group>"; };
+		65D39CD12B2F760400D975B8 /* MoneyTransferIntents.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = MoneyTransferIntents.intentdefinition; sourceTree = "<group>"; };
+		65D39CD32B2F763B00D975B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		65D39CD92B2F7D0500D975B8 /* Intents.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Intents.framework; path = System/Library/Frameworks/Intents.framework; sourceTree = SDKROOT; };
+		65D39CE42B2F7D0600D975B8 /* IntentsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IntentsUI.framework; path = System/Library/Frameworks/IntentsUI.framework; sourceTree = SDKROOT; };
+		65D39CFE2B2F7D3B00D975B8 /* TransactionsAppIntent.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = TransactionsAppIntent.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		65D39D012B2F7D3C00D975B8 /* IntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentHandler.swift; sourceTree = "<group>"; };
+		65D39D032B2F7D3C00D975B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65D39D082B2F7D3C00D975B8 /* TransactionsAppIntentUI.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = TransactionsAppIntentUI.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		65D39D0B2B2F7D3D00D975B8 /* IntentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentViewController.swift; sourceTree = "<group>"; };
+		65D39D0E2B2F7D3D00D975B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		65D39D102B2F7D3D00D975B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65D39D242B2F8B4B00D975B8 /* DonateButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DonateButton.swift; sourceTree = "<group>"; };
+		65D39D252B2F8B4B00D975B8 /* DonateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DonateViewController.swift; sourceTree = "<group>"; };
+		65D39D262B2F8B4B00D975B8 /* IntentManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntentManager.swift; sourceTree = "<group>"; };
 		6E7E94F95577623B73DED4B7 /* Pods-TransactionsApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TransactionsApp.release.xcconfig"; path = "Target Support Files/Pods-TransactionsApp/Pods-TransactionsApp.release.xcconfig"; sourceTree = "<group>"; };
 		91A8A44599D19D350323A7ED /* Pods-TransactionsApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TransactionsApp.debug.xcconfig"; path = "Target Support Files/Pods-TransactionsApp/Pods-TransactionsApp.debug.xcconfig"; sourceTree = "<group>"; };
 		C402B8E82B05C2E400E704A1 /* DateHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateHeaderView.swift; sourceTree = "<group>"; };
@@ -40,7 +106,7 @@
 		C410D6F02B1CCD03003357D8 /* PaymentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentView.swift; sourceTree = "<group>"; };
 		C410D6F22B1CEF25003357D8 /* SuccessView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuccessView.swift; sourceTree = "<group>"; };
 		C42A4CB72AAC8B2600780DBE /* TransactionsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TransactionsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		C42A4CBA2AAC8B2600780DBE /* TransactionsAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsAppApp.swift; sourceTree = "<group>"; };
+		C42A4CBA2AAC8B2600780DBE /* TransactionsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsApp.swift; sourceTree = "<group>"; };
 		C42A4CBC2AAC8B2600780DBE /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		C42A4CBE2AAC8B2900780DBE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C42A4CC12AAC8B2900780DBE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -62,6 +128,22 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		65D39CFB2B2F7D3B00D975B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65D39CFF2B2F7D3B00D975B8 /* Intents.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65D39D052B2F7D3C00D975B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65D39D092B2F7D3C00D975B8 /* IntentsUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C42A4CB42AAC8B2600780DBE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -82,6 +164,35 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		65D39D002B2F7D3C00D975B8 /* TransactionsAppIntent */ = {
+			isa = PBXGroup;
+			children = (
+				65D39D012B2F7D3C00D975B8 /* IntentHandler.swift */,
+				65D39D032B2F7D3C00D975B8 /* Info.plist */,
+			);
+			path = TransactionsAppIntent;
+			sourceTree = "<group>";
+		};
+		65D39D0A2B2F7D3D00D975B8 /* TransactionsAppIntentUI */ = {
+			isa = PBXGroup;
+			children = (
+				65D39D0B2B2F7D3D00D975B8 /* IntentViewController.swift */,
+				65D39D0D2B2F7D3D00D975B8 /* MainInterface.storyboard */,
+				65D39D102B2F7D3D00D975B8 /* Info.plist */,
+			);
+			path = TransactionsAppIntentUI;
+			sourceTree = "<group>";
+		};
+		65D39D232B2F8B4B00D975B8 /* AddToSiri */ = {
+			isa = PBXGroup;
+			children = (
+				65D39D242B2F8B4B00D975B8 /* DonateButton.swift */,
+				65D39D252B2F8B4B00D975B8 /* DonateViewController.swift */,
+				65D39D262B2F8B4B00D975B8 /* IntentManager.swift */,
+			);
+			path = AddToSiri;
+			sourceTree = "<group>";
+		};
 		C402B8EF2B06149200E704A1 /* Transfer */ = {
 			isa = PBXGroup;
 			children = (
@@ -96,6 +207,8 @@
 			isa = PBXGroup;
 			children = (
 				C42A4CB92AAC8B2600780DBE /* TransactionsApp */,
+				65D39D002B2F7D3C00D975B8 /* TransactionsAppIntent */,
+				65D39D0A2B2F7D3D00D975B8 /* TransactionsAppIntentUI */,
 				C42A4CB82AAC8B2600780DBE /* Products */,
 				45CE9FD9D35623A19535DF89 /* Pods */,
 				EC3075350C83347AA42E5881 /* Frameworks */,
@@ -106,6 +219,8 @@
 			isa = PBXGroup;
 			children = (
 				C42A4CB72AAC8B2600780DBE /* TransactionsApp.app */,
+				65D39CFE2B2F7D3B00D975B8 /* TransactionsAppIntent.appex */,
+				65D39D082B2F7D3C00D975B8 /* TransactionsAppIntentUI.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -113,7 +228,11 @@
 		C42A4CB92AAC8B2600780DBE /* TransactionsApp */ = {
 			isa = PBXGroup;
 			children = (
-				C42A4CBA2AAC8B2600780DBE /* TransactionsAppApp.swift */,
+				65047FBB2B3099C900C75025 /* TransactionsApp.entitlements */,
+				65D39CD32B2F763B00D975B8 /* Info.plist */,
+				C42A4CBA2AAC8B2600780DBE /* TransactionsApp.swift */,
+				65D39CD12B2F760400D975B8 /* MoneyTransferIntents.intentdefinition */,
+				65D39D232B2F8B4B00D975B8 /* AddToSiri */,
 				C4F1AB182B04CC2B00328AE6 /* Components */,
 				C4F1AB152B04CBD500328AE6 /* Model */,
 				C4F1AB162B04CBDB00328AE6 /* ViewModel */,
@@ -213,6 +332,8 @@
 			isa = PBXGroup;
 			children = (
 				D44CBDCB85FE014D7912114B /* Pods_TransactionsApp.framework */,
+				65D39CD92B2F7D0500D975B8 /* Intents.framework */,
+				65D39CE42B2F7D0600D975B8 /* IntentsUI.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -220,6 +341,40 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		65D39CFD2B2F7D3B00D975B8 /* TransactionsAppIntent */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65D39D1A2B2F7D3D00D975B8 /* Build configuration list for PBXNativeTarget "TransactionsAppIntent" */;
+			buildPhases = (
+				65D39CFA2B2F7D3B00D975B8 /* Sources */,
+				65D39CFB2B2F7D3B00D975B8 /* Frameworks */,
+				65D39CFC2B2F7D3B00D975B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TransactionsAppIntent;
+			productName = TransactionsAppIntent;
+			productReference = 65D39CFE2B2F7D3B00D975B8 /* TransactionsAppIntent.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		65D39D072B2F7D3C00D975B8 /* TransactionsAppIntentUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65D39D172B2F7D3D00D975B8 /* Build configuration list for PBXNativeTarget "TransactionsAppIntentUI" */;
+			buildPhases = (
+				65D39D042B2F7D3C00D975B8 /* Sources */,
+				65D39D052B2F7D3C00D975B8 /* Frameworks */,
+				65D39D062B2F7D3C00D975B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TransactionsAppIntentUI;
+			productName = TransactionsAppIntentUI;
+			productReference = 65D39D082B2F7D3C00D975B8 /* TransactionsAppIntentUI.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 		C42A4CB62AAC8B2600780DBE /* TransactionsApp */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = C42A4CC52AAC8B2900780DBE /* Build configuration list for PBXNativeTarget "TransactionsApp" */;
@@ -229,10 +384,13 @@
 				C42A4CB42AAC8B2600780DBE /* Frameworks */,
 				C42A4CB52AAC8B2600780DBE /* Resources */,
 				AE915F1DA89FCB35C9743E6F /* [CP] Embed Pods Frameworks */,
+				65D39CF92B2F7D0600D975B8 /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				65D39D122B2F7D3D00D975B8 /* PBXTargetDependency */,
+				65D39D152B2F7D3D00D975B8 /* PBXTargetDependency */,
 			);
 			name = TransactionsApp;
 			productName = TransactionsApp;
@@ -246,9 +404,15 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1430;
-				LastUpgradeCheck = 1430;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
 				TargetAttributes = {
+					65D39CFD2B2F7D3B00D975B8 = {
+						CreatedOnToolsVersion = 15.1;
+					};
+					65D39D072B2F7D3C00D975B8 = {
+						CreatedOnToolsVersion = 15.1;
+					};
 					C42A4CB62AAC8B2600780DBE = {
 						CreatedOnToolsVersion = 14.3;
 					};
@@ -268,11 +432,28 @@
 			projectRoot = "";
 			targets = (
 				C42A4CB62AAC8B2600780DBE /* TransactionsApp */,
+				65D39CFD2B2F7D3B00D975B8 /* TransactionsAppIntent */,
+				65D39D072B2F7D3C00D975B8 /* TransactionsAppIntentUI */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		65D39CFC2B2F7D3B00D975B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65D39D062B2F7D3C00D975B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65D39D0F2B2F7D3D00D975B8 /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C42A4CB52AAC8B2600780DBE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -327,12 +508,38 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		65D39CFA2B2F7D3B00D975B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65D39D1D2B2F888E00D975B8 /* MoneyTransferIntents.intentdefinition in Sources */,
+				65D39D022B2F7D3C00D975B8 /* IntentHandler.swift in Sources */,
+				65D39D282B2F8B4B00D975B8 /* DonateButton.swift in Sources */,
+				65D39D2B2B2F8B4B00D975B8 /* DonateViewController.swift in Sources */,
+				65D39D2E2B2F8B4B00D975B8 /* IntentManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65D39D042B2F7D3C00D975B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65D39D1E2B2F888F00D975B8 /* MoneyTransferIntents.intentdefinition in Sources */,
+				65D39D0C2B2F7D3D00D975B8 /* IntentViewController.swift in Sources */,
+				65D39D292B2F8B4B00D975B8 /* DonateButton.swift in Sources */,
+				65D39D2C2B2F8B4B00D975B8 /* DonateViewController.swift in Sources */,
+				65D39D2F2B2F8B4B00D975B8 /* IntentManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C42A4CB32AAC8B2600780DBE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				C402B8F12B0614A600E704A1 /* TransferView.swift in Sources */,
 				C42A4CBD2AAC8B2600780DBE /* LoginView.swift in Sources */,
+				65D39CD22B2F760400D975B8 /* MoneyTransferIntents.intentdefinition in Sources */,
+				65D39D2A2B2F8B4B00D975B8 /* DonateViewController.swift in Sources */,
 				C4AAAA5D2B0520DF00048C46 /* BalancesView.swift in Sources */,
 				C4E6A7B12B1B5FCE001653E1 /* ButtonsView.swift in Sources */,
 				C4F1AB212B04D7C000328AE6 /* AccountsViewModel.swift in Sources */,
@@ -340,27 +547,172 @@
 				C4C3FC1A2B051AE600D148A6 /* ViewAccounts.swift in Sources */,
 				C4F1AB232B04D7FA00328AE6 /* Account.swift in Sources */,
 				C4F1AB1E2B04D24600328AE6 /* StringConstants.swift in Sources */,
+				65D39D2D2B2F8B4B00D975B8 /* IntentManager.swift in Sources */,
 				C4F1AB1A2B04CCB300328AE6 /* CustomNavigationView.swift in Sources */,
 				C402B8E92B05C2E400E704A1 /* DateHeaderView.swift in Sources */,
 				C410D6F12B1CCD03003357D8 /* PaymentView.swift in Sources */,
 				C410D6F32B1CEF25003357D8 /* SuccessView.swift in Sources */,
-				C42A4CBB2AAC8B2600780DBE /* TransactionsAppApp.swift in Sources */,
+				C42A4CBB2AAC8B2600780DBE /* TransactionsApp.swift in Sources */,
 				C4A974DD2AB0BA8200CF5AD3 /* PinView.swift in Sources */,
 				C44A6B272AC2B9250054519F /* UnderlineTextFieldView.swift in Sources */,
 				C4C3FC1D2B051BF600D148A6 /* SeperatorView.swift in Sources */,
 				C4D9992C2AD4557E00E70289 /* IconConstants.swift in Sources */,
 				C4F1AB272B04D85E00328AE6 /* Utils.swift in Sources */,
+				65D39D272B2F8B4B00D975B8 /* DonateButton.swift in Sources */,
 				C4C3FC162B0518A200D148A6 /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		65D39D122B2F7D3D00D975B8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 65D39D072B2F7D3C00D975B8 /* TransactionsAppIntentUI */;
+			targetProxy = 65D39D112B2F7D3D00D975B8 /* PBXContainerItemProxy */;
+		};
+		65D39D152B2F7D3D00D975B8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 65D39CFD2B2F7D3B00D975B8 /* TransactionsAppIntent */;
+			targetProxy = 65D39D142B2F7D3D00D975B8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		65D39D0D2B2F7D3D00D975B8 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65D39D0E2B2F7D3D00D975B8 /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
+		65D39D182B2F7D3D00D975B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TransactionsAppIntentUI/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = TransactionsAppIntentUI;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tcs.TransactionsApp.TransactionsAppIntentUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		65D39D192B2F7D3D00D975B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TransactionsAppIntentUI/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = TransactionsAppIntentUI;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tcs.TransactionsApp.TransactionsAppIntentUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		65D39D1B2B2F7D3D00D975B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TransactionsAppIntent/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = TransactionsAppIntent;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tcs.TransactionsApp.TransactionsAppIntent;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		65D39D1C2B2F7D3D00D975B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TransactionsAppIntent/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = TransactionsAppIntent;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tcs.TransactionsApp.TransactionsAppIntent;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		C42A4CC32AAC8B2900780DBE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -421,6 +773,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -475,13 +828,18 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 91A8A44599D19D350323A7ED /* Pods-TransactionsApp.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_ENTITLEMENTS = TransactionsApp/TransactionsApp.entitlements;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"TransactionsApp/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TransactionsApp/Info.plist;
+				INFOPLIST_KEY_NSSiriUsageDescription = "Allow access to Siri";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -494,6 +852,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.tcs.TransactionsApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -504,13 +863,18 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6E7E94F95577623B73DED4B7 /* Pods-TransactionsApp.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_ENTITLEMENTS = TransactionsApp/TransactionsApp.entitlements;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"TransactionsApp/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TransactionsApp/Info.plist;
+				INFOPLIST_KEY_NSSiriUsageDescription = "Allow access to Siri";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -523,6 +887,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.tcs.TransactionsApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -532,6 +897,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		65D39D172B2F7D3D00D975B8 /* Build configuration list for PBXNativeTarget "TransactionsAppIntentUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65D39D182B2F7D3D00D975B8 /* Debug */,
+				65D39D192B2F7D3D00D975B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65D39D1A2B2F7D3D00D975B8 /* Build configuration list for PBXNativeTarget "TransactionsAppIntent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65D39D1B2B2F7D3D00D975B8 /* Debug */,
+				65D39D1C2B2F7D3D00D975B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		C42A4CB22AAC8B2600780DBE /* Build configuration list for PBXProject "TransactionsApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
