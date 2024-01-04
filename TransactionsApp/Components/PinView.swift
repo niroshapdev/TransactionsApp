@@ -63,7 +63,7 @@ struct PinView: View {
 
                 if password.count == otpCount {
                     NavigationLink {
-                        BalancesView()
+                        TabsView()
                     } label: {
                         Text("Login")
                             .foregroundStyle(.white)

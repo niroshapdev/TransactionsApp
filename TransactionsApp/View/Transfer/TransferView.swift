@@ -40,6 +40,8 @@ struct TransferView: View {
     @State var selectedFromAccount: Account = DefaultConstants.defaultAccount
     @State var selectedToAccount: Account = DefaultConstants.defaultAccount
     
+    @ObservedObject var dataManager = DataManager()
+
     var body: some View {
         ScrollView{
             //            contentView
@@ -118,11 +120,24 @@ struct TransferView: View {
     private var proceedButtonView: some View {
         ButtonsView(title: "Proceed to pay", buttonStyle: .primary, action: {
             isPayment.toggle()
+            dataManager.transactions.append(TransactionData(fromAccount: $selectedFromAccount.wrappedValue.title ?? "", toAccount: $selectedToAccount.wrappedValue.title ?? "", amount: $amount.wrappedValue))
+
+            saveTransactions()
         })
         .sheet(isPresented: $isPayment, content: {
             SuccessView()
         })
         .padding(.top, 30)
+    }
+    
+    func saveTransactions() {
+        do {
+            let encoder = JSONEncoder()
+            let transactionsData = try encoder.encode(dataManager.transactions)
+            UserDefaults.standard.set(transactionsData, forKey: "Transactions")
+        } catch {
+            print("Error encoding transactions: \(error)")
+        }
     }
 
 }

@@ -17,6 +17,7 @@ class IconConstants {
     static let transferCircle = "arrow.left.arrow.right.circle"
     static let chevronRight = "chevron.right"
     static let chevronDown = "chevron.down"
+    static let clockArrow = "clock.arrow.circlepath"
 }
 struct Icons {
     static var plusImage: some View {

@@ -16,6 +16,7 @@ struct StringConstants {
     static let enterCode = "Enter your Easy Banking code"
     static let accounts = "Accounts"
     static let inrCurrency = "INR"
+    static let transactions = "Transactions"
     
     static let TestAccounts = [
         Account(balance: 10000.0, title: "Savings1", currency: .inr, notes: "Savings account"),
@@ -25,11 +26,14 @@ struct StringConstants {
         Account(balance: 50000.0, title: "Savings5", currency: .inr, notes: "Savings account"),
         Account(balance: 60000.0, title: "Savings6", currency: .inr, notes: "Savings account")
     ]
-
     
     public enum BalancesConstants {
         public static let balancesTab = "Balances"
         public static let transferTab = "Transfer"
+    }
+    
+    public enum HistoryConstants {
+        public static let historyTab = "History"
     }
     
     public enum TransferConstants {
